@@ -30,7 +30,7 @@ function incrementarPorUno(array) {
   var nuevoarray=[];
   for(var i=0;i<array.length;i++);
   {
-    nuevoarray[i]=array[i]+1; 
+    nuevoarray[i]=array[i]+1;
 }
 return nuevoarray;
 }
@@ -103,9 +103,10 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   var maximo=numero[0];
-  for(var i=1;i<numero.length;i++){
+  for(var i=1;i<numero.length;i++)
+  {
     if(numeros[i]>maximo){
-}
+
 return maximo;
   }
 
@@ -139,8 +140,8 @@ function cuentoElementos(arreglo){
 function diaDeLaSemana(numeroDeDia) {
   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente. 
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
-  //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
-  //Escribe tu código aquí  
+  //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario.
+  //Escribe tu código aquí
   if(numeroDeDia=== numeroDeDia===7){
     return"Es fin de semana";
       return"Es dia laboral";
@@ -155,15 +156,15 @@ function empiezaConNueve(n) {
   let num= n.toString()
   if (num.CharA +(0)===9){
     return  true}
-    return false 
+    return false
   }
-  
+
 
 
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
-  //Escribe tu código aquí  
+  //Escribe tu código aquí
   for(var i=0; i<arreglo.length-1;i++){
     if(arreglo[i]!==arreglo[i+1]){
       return false}

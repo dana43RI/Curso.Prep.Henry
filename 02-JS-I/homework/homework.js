@@ -153,9 +153,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   switch(Math.sign(numero)){
-   case 1:return "Es positivo"
+case 1:return "Es positivo"
     case-1:return "es negativo"
-    default :return false 
+    default :return false
 }
 
 
@@ -207,7 +207,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   return euro*1.2
-  
+
 }
 
 
