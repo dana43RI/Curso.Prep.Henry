@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = hola;
+const nuevaString = "string"
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 3;
@@ -197,7 +197,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return lado*ancho/2
+  return (lado*ancho)/2
 
 }
 
@@ -217,16 +217,21 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
   letra=letra.toUpperCase()
-  if(letra.length>1);letra.length ;return "dato incorrecto"
+  if(letra.length>1){
+  return "Dato incorrecto"
+  }
+    if (letra==="A"||letra==="E"||letra==="I"||letra==="O"||letra==="U"){
+    return "Es vocal"
+  }
 
-    if (letra==="A");letra==="E";letra==="I";letra==="O";letra==="U";return"Es vocal"}
+  return "Dato incorrecto"
 
   }
 
 
 
 // No modificar nada debajo de esta línea
-// --------------------------------
+// -------------------------------
 
 module.exports = {
   nuevaString,
