@@ -15,7 +15,7 @@ meow:function()
   {
     return "obj";
   }
-    
+
 
 
 function agregarPropiedad(objeto, property) {
