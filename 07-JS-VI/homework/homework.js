@@ -30,11 +30,11 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-[3,19,29,44,2008,345]
-var resultado=0;
-resultado += numeros[i];
+let resultado = numero.reduce(function(acc,el){
+  return (acc + el
 
-}
+, 0)
+  }
 cb(resultado)
 
 function forEach(array, cb) {
@@ -62,7 +62,9 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
 filterArray=[]
-for(var i=;i<array.length;i++)}
+for(var i=i<array.length;i++){
+
+}
 if (array[i].charAt(0)==="a"){
 filterArray.push(array[i])
 }
@@ -80,4 +82,5 @@ module.exports = {
   forEach,
   map,
   filter
-};
+
+}
